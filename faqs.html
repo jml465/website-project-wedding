@@ -52,7 +52,7 @@
     <div class="container" style="margin-top:2em;">
 
       <div>
-        <h1>Acai Bowls & More</h1>
+        <h1>Frequently Asked Questions</h1>
       </div>
 
 
@@ -60,92 +60,52 @@
       
       <!--
 
-        RESPONSIVE GRID OF CARDS
-
-        SEE:
-
-            https://getbootstrap.com/docs/5.0/layout/grid/
-
-            https://getbootstrap.com/docs/5.0/components/card/
-
-            https://getbootstrap.com/docs/5.0/components/card/#grid-cards
+        FLUSH ACCORDION. Source: https://getbootstrap.com/docs/5.3/components/accordion/
 
       -->
 
-      <div class="row row-cols-3">
-
-          <div class="card col" style="width: 18rem; margin:20px;">
-              <img src="https://static.subbly.me/fs/subbly/userFiles/the-juice-laundry-5c95192981f79/images/416-super.jpg?v=1604572168" class="card-img-top" alt="...">
-              <div class="card-body">
-                  <h5 class="card-title">Acai Smoothie Bowl</h5>
-                  <p class="card-text">Pick any smoothie to use as the base for your bowl. Smoothie bowls come blended with acai and topped with fruit and our house granola.</p>
-                  <a href="#" class="btn btn-primary">Add to Cart</a>
-              </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              WHEN DO I NEED TO RSVP BY?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We would appreciate your RSVP as soon as you are able, but please let us know no later than July 8th if you intend to come.</div>
           </div>
-
-          <div class="card col" style="width: 18rem; margin:20px;">
-              <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/snacks/475-breakfast-bowl.jpg?raw=true" class="card-img-top" alt="...">
-              <div class="card-body">
-                   <h5 class="card-title">Gluten-Free Oats Bowl</h5>
-                   <p class="card-text">Oats soaked in our house cashew milk, served cold. Choice of 2 toppings included.</p>
-                   <a href="#" class="btn btn-primary">Add to Cart</a>
-              </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              WILL THE WEDDING BE INDOORS/OUTDOORS? SHOULD I PLAN FOR WEATHER?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">The venue is completely covered and indoors, with the option to use the outdoor patio and open the sliding doors, weather permitting.</div>
           </div>
-
-          <div class="card col" style="width: 18rem; margin:20px;">
-            <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/snacks/475-breakfast-bowl.jpg?raw=true" class="card-img-top" alt="...">
-            <div class="card-body">
-                 <h5 class="card-title">Quinoa Bowl</h5>
-                 <p class="card-text">Quinoa cooked in our house cashew milk, served cold. Choise of 2 toppings included.</p>
-                 <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
         </div>
-
-        <div class="card col" style="width: 18rem; margin:20px;">
-            <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/snacks/475-breakfast-bowl.jpg?raw=true" class="card-img-top" alt="...">
-            <div class="card-body">
-                 <h5 class="card-title">Combination Bowl</h5>
-                 <p class="card-text">Combination of oats and quinoa, served cold. Choice of 2 toppings included.</p>
-                 <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              WHAT IS THE DRESS CODE?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We request our guests wear Cocktail Attire.</div>
+          </div>
         </div>
-
-        <div class="card col" style="width: 18rem; margin:20px;">
-            <img src="https://static.subbly.me/fs/subbly/userFiles/the-juice-laundry-5c95192981f79/images/149-img6962.jpg?v=1604572166" class="card-img-top" alt="...">
-            <div class="card-body">
-                 <h5 class="card-title">Vanilla Cashew Parfait</h5>
-                 <p class="card-text">A vegan take on Greek-style yogurt, loaded with probiotics and topped with berries and our house granola.</p>
-                 <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              WILL THERE BE AN OPEN BAR?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Yes!</div>
+          </div>
         </div>
-
-        <div class="card col" style="width: 18rem; margin:20px;">
-            <img src="https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/snacks/475-breakfast-bowl.jpg?raw=true" alt="...">
-            <div class="card-body">
-                 <h5 class="card-title">Chia Seed Pudding</h5>
-                 <p class="card-text">Available in Strawberry, Chocolate, Vanilla Goji, and Vanilla Matcha flavors.</p>
-                 <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-        </div>
-
-        <div class="card col" style="width: 18rem; margin:20px;">
-            <img src="https://124991820.cdn6.editmysite.com/uploads/1/2/4/9/124991820/s945706280274162790_p36_i1_w550.jpeg?width=2400&optimize=medium" class="card-img-top" alt="...">
-            <div class="card-body">
-                 <h5 class="card-title">House Granola</h5>
-                 <p class="card-text">You asked for it, so we've made our granola available in 16oz containers.</p>
-                 <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-        </div>
-
-
       </div>
-
-
-
-
-
-
-
 
 
       <footer style="margin-top:2em; margin-bottom:2em;">
